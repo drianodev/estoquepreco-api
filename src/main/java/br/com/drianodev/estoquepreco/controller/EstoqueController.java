@@ -1,7 +1,7 @@
 package br.com.drianodev.estoquepreco.controller;
 
-import br.com.drianodev.estoquepreco.constants.RabbitMQConstants;
-import br.com.drianodev.estoquepreco.dto.EstoqueDTO;
+import constants.RabbitMQConstants;
+import dto.EstoqueDTO;
 import br.com.drianodev.estoquepreco.service.RabbitMQService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
